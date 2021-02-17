@@ -37,6 +37,7 @@ Scope - Create a Why MicroSite that incorporates Info about Acorn Stairlifts and
 ![Image](photosforreadme/Section7(ClosingCredits).png)
 
 ## FIGMA links and wireframes
+Photos Are Located in photosforreadme
 Links: 
 [Link]https://www.figma.com/file/3WfJi3XPQCxZBH55HeNokt/FInalizedAcornChairlift
 [Link]https://www.figma.com/file/cDnJmynHG17WkRPoyf9Jp1/Acorn-Stairlifts-Why-Us-Microsite?node-id=0%3A1
@@ -46,6 +47,13 @@ Links:
 ![Image](photosforreadme/MacBook Pro - 4.png)
 
 ## Figma Final design and assets
+Photos Are Located in photosforreadme
 ![Image](photosforreadme/MacBook Pro - 5.png)
 ![Image](photosforreadme/MacBook Pro - 6.png)
 ![Image](photosforreadme/Frame 2.png)
+
+###
+To see a in a live format pls;
+1. download the Zip
+2. Export folder
+3. and Run the Index.html
