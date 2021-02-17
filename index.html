@@ -15,45 +15,51 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
 
 </head>
 
 <body data-spy="scroll" data-offset="0">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">Aircorn Stairlift</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Why Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Guarantees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+            <button>Free Quote</button>
         </div>
-      </nav>
+    </nav>
     <!-- Header -->
     <header class="jumbotron jumbotron-fluid">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6">
                     <h1>Every 8 Minutes an Acorn Stairlifts is installed...</h1>
-                    <span>See Why <a href="">Here</a>!</span>
+                    <span class="calltoaction">See Why!</span>
                 </div>
-                <div class="col-6">
-
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/splash.png" alt="">
                 </div>
             </div>
         </div>
@@ -63,98 +69,162 @@
 
         <!-- Customer Focus Row -->
         <div class="row">
-            <div class="container">
+            <div class="container focusCard">
                 <div class="row">
-                    <div class="col-6">
-
+                    <div class="col-md-6">
+                        <div class="focusImg">
+                            <img class="img-fluid" src="img/grandparentsday.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <h2>Customer Focus</h2>
                         <p>At the core of the company is a desire to help people overcome mobility issues and live their
                             best lives. Acorn is dedicated to providing first class customer care and ongoing aftercare
                             for its stairlifts and the people who use them.</p>
-                        <button><a href="">Learn More</a></button>
+                        <button>Learn More</button>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- We Are There For You -->
-        <div class="row">
-            <div class="col-8 mx-auto">
+        <div class="row weAreThere">
+            <div class="col-8 mx-auto text-center">
                 <h2>We are there for you</h2>
-                <button><a href="">Free Quote</a></button>
-                <button><a href="">Schedule a Call</a></button>
+                <button>Free Quote</button>
+                <button>Schedule a Call</button>
             </div>
         </div>
         <!-- What Customers Think -->
-        <div class="row">
-            <div class="col-8">
+        <div class="row customer">
+            <div class="col-8 text-center mx-auto">
                 <h2>What Our Customer Think</h2>
+                <hr>
             </div>
         </div>
         <!-- Safe and Easy to Use -->
-        <div class="row">
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                  </div>
+        <div class="row safeAndEasy">
+            <div class="imgContainer">
+                <img class="img-fluid" src="img/grandkid.png" alt="" style="border-radius:15px;">
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Safe and <br />easy to use.</h4>
+                    <p class="card-text">"So far it has been very useful, safe and easy to use. Will certainly help
+                        in the future years as possible new health issues may occur. Everyone we have dealt with was
+                        kind, informative and helpful.”</p>
+                    <h5 href="#" class="d-inline-block">John Hughes</h5>
+                    <a href="#" class="card-link">Read More</a>
+                </div>
             </div>
         </div>
         <!-- Speed of Installation -->
-        <div class="row">
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                  </div>
+        <div class="row speedInstall">
+            <div class="imgContainer">
+                <img class="img-fluid" src="img/easy-peasy.png" alt="" style="border-radius:15px;">
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Speed of <br> Installation.</h4>
+                    <p class="card-text">"1. Loved the presentation 2. The speediness of having it installed
+                        3. The gentleman who installed the chair was so gentle in installing the stairlift”.</p>
+                    <h5 href="#" class="d-inline-block">Patricia Sauer</h5>
+                    <a href="#" class="card-link">Read More</a>
+                </div>
             </div>
         </div>
         <!-- Everything is explained with care -->
-        <div class="row">
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                  </div>
+        <div class="row withCare">
+            <div class="imgContainer">
+                <img class="img-fluid" src="img/dancin.png" alt="" style="border-radius:15px;">
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Everything is explained with care.</h4>
+                    <p class="card-text">"Special thanks to Cheryl Armstead I called her a lot. She always had the
+                        Information I asked for. John Festa came and explained everything about the stairlift.”</p>
+                    <h5 href="#" class="d-inline-block">Doris Jewett</h5>
+                    <a href="#" class="card-link">Read More</a>
+                </div>
             </div>
         </div>
         <!-- Why Acorn Stairlifts -->
-        <div class="row">
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+        <div class="row whyUs">
+            <div class="col-md-4 mx-auto text-center">
+                <button>Why Acorn Stairlifts</button>
+            </div>
+        </div>
+        <!-- Why Reasons -->
+        <div class="row whyReason">
+            <div class="col-md-2 mt-3 text-center ml-auto">
+                <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
+                        <h5 class="card-title">Ease-Of-Use</h5>
+                        <h6 class="card-subtitle"> Stairlift should be designed and built to meet the needs of its
+                            passenger.
+                        </h6>
                     </div>
-                  </div>
+                </div>
+            </div>
+            <div class="col-md-2 mt-3 text-center">
+                <div class="card mx-auto">
+                    <div class="card-body">
+                        <h5 class="card-title">12-Month-Guarantee</h5>
+                        <h6 class="card-subtitle">A manufacturer’s warranty gives you a peace of mind
+                            that you’re fully covered in case anything goes wrong with your new purchase.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mt-3 text-center mr-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Built To Last</h5>
+                        <h6 class="card-subtitle">A home stairlift is a long-term investment to enhance your quality of
+                            life
+                            for many years to come, so you need to know it is built to last.</h6>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Closing Credits -->
-        <div class="row">
-
+        <div class="row closingCredit">
+            <div class="container mx-auto">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>From the moment we answer your first phone call to us, our job is to listen and understand your
+                            needs. </h3>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="d-md-block ml-md-auto" id="freeQuote">Free Quote</button>
+                        <button class="d-md-block ml-auto">Reviews</button>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer>
-
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4">
+                        <h2>Acorn Stairlifts</h2>
+                        <h3>844-254-5015</h3>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">Contact</li>
+                            <li class="list-inline-item">Guarantees</li>
+                            <li class="list-inline-item">Testimonials</li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">Privacy Policy</li>
+                            <li class="list-inline-item">Terms & Conditions</li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        @2021 Stairlifts Comparison | All rights reserved
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
 

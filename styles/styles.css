@@ -1,0 +1,776 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    background-image: url(../img/MacBook\ Pro\ -\ 5.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.navbar{
+    height: 6rem;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.navbar button {
+    color: white;
+    border: unset;
+    border: 3px solid #EB933B;
+    background-color: #EB933B;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+    margin: 0.5rem;
+}
+
+.jumbotron {
+    height: 90vh;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* Jumbotron h1 */
+
+/* If the screen size is 601px wide or more */
+@media screen and (min-width: 601px) {
+    .jumbotron h1 {
+        margin-top: 5rem;
+        font-size: 4rem;
+        font-weight: 800;
+        margin-left: 2rem;
+    }
+
+    .jumbotron .calltoaction {
+        display: block;
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-left: 2rem;
+        margin-top: 6rem;
+    }
+  }
+
+  /* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+    .jumbotron h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-left: 2rem;
+    }
+
+    .jumbotron .calltoaction {
+        display: block;
+        font-size: 2rem;
+        font-weight: 800;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+  }
+
+
+  /* Customer Focus CSS */
+
+/* If the screen size is 601px wide or more */
+@media screen and (min-width: 601px) {
+    .focusCard {
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 1rem;
+        margin-top: 4rem;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        height: 20rem;
+      }
+        
+    .focusCard img { 
+    height: 15rem;
+    border-radius: 1rem;
+    }
+
+    .focusCard .focusImg{
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    }
+
+    .focusCard h2 {
+        margin-top: 2.5rem;
+        font-weight: 800;
+        color: #EB933B;
+    }
+    
+  .focusCard p {
+    margin-right: 5rem;
+    border-left: 3px solid #EB933B;
+    padding-left: 1rem;
+    }
+
+    .focusCard button {
+        color: #EB933B;
+        border: unset;
+        border: 3px solid #EB933B;
+        background-color: white;
+        padding: 5px 15px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        margin-top: 1rem;
+    }
+}
+
+  /* If the screen size is 600px wide or less */
+  @media screen and (max-width: 600px) {
+    .focusCard {
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 1rem;
+        margin: 0.5rem 2rem 2rem 2rem;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        height: 40rem;
+      }
+    
+      .focusCard .focusImg{
+        margin-top: 1rem;
+        border-radius: 1rem;
+      }
+
+      .focusCard h2 {
+        margin-top: 1rem;
+        font-weight: 800;
+        color: #EB933B;
+    }
+
+    .focusCard p {
+        border-left: 3px solid #EB933B;
+        padding-left: 1rem;
+    }
+
+    .focusCard button {
+        color: #EB933B;
+        border: unset;
+        border: 3px solid #EB933B;
+        background-color: white;
+        padding: 5px 15px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        margin: 1rem auto;
+    }
+  }
+
+
+
+/* We Are There For You CSS */
+
+/* If the screen size is 601px wide or more */
+    @media screen and (min-width: 601px) {
+        .weAreThere {
+            margin-top: 5rem;
+          }
+        
+          .weAreThere h2 {
+              font-weight: 800;
+              font-size: 2.5rem;
+              color: #284F9E;
+          }
+        
+          .weAreThere button {
+            color: white;
+            border: unset;
+            border: 3px solid #EB933B;
+            background-color: #EB933B;
+            padding: 5px 15px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+            margin: 0.5rem;
+        }
+  }
+
+  /* If the screen size is 600px wide or less */
+    @media screen and (max-width: 600px) {
+        .weAreThere {
+            margin-top: 1rem;
+          }
+        
+          .weAreThere h2 {
+              font-weight: 800;
+              font-size: 2rem;
+              color: #284F9E;
+          }
+        
+          .weAreThere button {
+            color: white;
+            border: unset;
+            border: 3px solid #EB933B;
+            background-color: #EB933B;
+            padding: 5px 15px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+            margin: 0.5rem;
+        }
+  }
+
+
+
+/* We Are There For You CSS */
+
+/* If the screen size is 601px wide or more */
+@media screen and (min-width: 601px) {
+    .customer {
+        margin-top: 5rem;
+      }
+    
+    .customer h2 {
+        font-size: 2.5rem;
+    }
+    
+    .customer hr {
+        display: block;
+        background-color: #EB933B;
+        height: 3px;
+        margin-top: 0.5em;
+        width: 25rem;
+    }
+}
+/* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+    .customer {
+        margin-top: 4rem;
+      }
+    
+      .customer h2 {
+         font-size: 1.5rem;
+      }
+
+      .customer hr {
+        display: block;
+        background-color: #EB933B;
+        height: 3px;
+        margin-top: 0.5em;
+        width: 8rem;
+    }
+    
+}
+
+/* Safe And Easy CSS */
+
+/* If the screen size is 601px wide or more */
+@media screen and (min-width: 601px) {
+    .safeAndEasy {
+        margin-top: 2rem;
+      }
+    
+    .safeAndEasy .card {
+        position: relative;
+        right: 1rem;
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 1rem;
+        margin: 0.5rem 2rem 2rem 2rem;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        height: 22rem;
+        width: 22rem;
+    }
+    
+    .safeAndEasy h4 {
+        font-weight: 800;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .safeAndEasy p   {
+        margin-left: 1rem;
+        margin-right: 4rem;
+        font-size: 0.85rem;
+    }
+    .safeAndEasy h5 {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        font-weight: 800;
+        color: #EB933B;
+    }
+    .safeAndEasy .card-link {
+        color: black;
+        margin-left: 2rem;
+    }
+    .safeAndEasy .imgContainer {
+        position: relative;
+        left: 39.5rem;
+        top: 2.5rem;
+        max-width: 18rem;
+        max-height: 18rem;
+        z-index: 1;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        border-radius: 15px;
+    }
+}
+/* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+    .safeAndEasy {
+        margin-top: 2rem;
+      }
+    
+    .safeAndEasy .card {
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 1rem;
+        margin: 0.5rem 2rem 2rem 2rem;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        height: 22rem;
+        width: 22rem;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    .safeAndEasy h4 {
+        font-weight: 800;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .safeAndEasy p   {
+        margin-left: 1rem;
+        margin-right: 2rem;
+        font-size: 0.85rem;
+    }
+    .safeAndEasy h5 {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        font-weight: 800;
+        color: #EB933B;
+    }
+    .safeAndEasy .card-link {
+        color: black;
+        margin-left: 1rem;
+    }
+
+}
+
+
+/* Speed of Installation CSS */
+
+/* If the screen size is 601px wide or more */
+@media screen and (min-width: 601px) {
+    .speedInstall {
+        margin-top: 2rem;
+      }
+    
+    .speedInstall .card {
+        position: relative;
+        left: 20rem;
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 1rem;
+        margin: 0.5rem 2rem 2rem 2rem;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        height: 22rem;
+        width: 22rem;
+    }
+    
+    .speedInstall h4 {
+        font-weight: 800;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .speedInstall p   {
+        margin-left: 1rem;
+        margin-right: 4rem;
+        font-size: 0.85rem;
+    }
+    .speedInstall h5 {
+        margin-top: 4.5rem;
+        margin-left: 1rem;
+        font-weight: 800;
+        color: #EB933B;
+    }
+    .speedInstall .card-link {
+        color: black;
+        margin-left: 2rem;
+    }
+    .speedInstall .imgContainer {
+        position: relative;
+        left: 23.5rem;
+        top: 2.5rem;
+        max-width: 18rem;
+        max-height: 18rem;
+        z-index: 1;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        border-radius: 15px;
+    }
+}
+
+/* If the screen size is 993px wide or more */
+@media screen and (min-width: 993px) {
+    .speedInstall {
+        margin-top: 2rem;
+      }
+    
+    .speedInstall .card {
+        position: relative;
+        left: 36rem;
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 1rem;
+        margin: 0.5rem 2rem 2rem 2rem;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        height: 22rem;
+        width: 22rem;
+    }
+    
+    .speedInstall h4 {
+        font-weight: 800;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .speedInstall p   {
+        margin-left: 1rem;
+        margin-right: 4rem;
+        font-size: 0.85rem;
+    }
+    .speedInstall h5 {
+        margin-top: 4.5rem;
+        margin-left: 1rem;
+        font-weight: 800;
+        color: #EB933B;
+    }
+    .speedInstall .card-link {
+        color: black;
+        margin-left: 2rem;
+    }
+    .speedInstall .imgContainer {
+        position: relative;
+        left: 39.5rem;
+        top: 2.5rem;
+        max-width: 18rem;
+        max-height: 18rem;
+        z-index: 1;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        border-radius: 15px;
+    }
+}
+
+/* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+    .speedInstall {
+        margin-top: 2rem;
+      }
+    
+    .speedInstall .card {
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 1rem;
+        margin: 0.5rem 2rem 2rem 2rem;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        height: 22rem;
+        width: 22rem;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    .speedInstall h4 {
+        font-weight: 800;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .speedInstall p   {
+        margin-left: 1rem;
+        margin-right: 2rem;
+        font-size: 0.85rem;
+    }
+    .speedInstall h5 {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        font-weight: 800;
+        color: #EB933B;
+    }
+    .speedInstall .card-link {
+        color: black;
+        margin-left: 1rem;
+    }
+}
+
+
+/* Everything is Explained with Care CSS */
+
+/* If the screen size is 601px wide or more */
+@media screen and (min-width: 601px) {
+    .withCare {
+        margin-top: 2rem;
+      }
+    
+    .withCare .card {
+        position: relative;
+        right: 1rem;
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 1rem;
+        margin: 0.5rem 2rem 2rem 2rem;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        height: 22rem;
+        width: 22rem;
+    }
+    
+    .withCare h4 {
+        font-weight: 800;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .withCare p   {
+        margin-left: 1rem;
+        margin-right: 4rem;
+        font-size: 0.85rem;
+    }
+    .withCare h5 {
+        margin-top: 3.5rem;
+        margin-left: 1rem;
+        font-weight: 800;
+        color: #EB933B;
+    }
+    .withCare .card-link {
+        color: black;
+        margin-left: 2rem;
+    }
+    .withCare .imgContainer {
+        position: relative;
+        background-color: #EB933B;
+        left: 39.5rem;
+        top: 2.5rem;
+        max-width: 18rem;
+        max-height: 18rem;
+        z-index: 1;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        border-radius: 15px;
+    }
+}
+/* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+    .withCare {
+        margin-top: 2rem;
+      }
+    
+    .withCare .card {
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 1rem;
+        margin: 0.5rem 2rem 2rem 2rem;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        height: 22rem;
+        width: 22rem;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    .withCare h4 {
+        font-weight: 800;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .withCare p   {
+        margin-left: 1rem;
+        margin-right: 2rem;
+        font-size: 0.85rem;
+    }
+    .withCare h5 {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        font-weight: 800;
+        color: #EB933B;
+    }
+    .withCare .card-link {
+        color: black;
+        margin-left: 1rem;
+    }
+}
+
+
+/* Why Acorn Stairlifts */
+
+/* If the screen size is 601px wide or more */
+@media screen and (min-width: 601px) {
+    .whyUs {
+        margin-top: 8rem;
+        
+    }
+
+    .whyUs button {
+        color: white;
+        letter-spacing: 1.5px;
+        font-size: 1.5rem;
+        font-weight: 800;
+        border: unset;
+        border: 3px solid #EB933B;
+        background-color: #EB933B;
+        padding: 5px 15px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+    }
+  }
+
+  /* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+    .whyUs {
+        margin-top: 4rem;
+    }
+
+    .whyUs button {
+        color: white;
+        letter-spacing: 1.5px;
+        font-size: 1rem;
+        font-weight: 800;
+        border: unset;
+        border: 3px solid #EB933B;
+        background-color: #EB933B;
+        padding: 5px 15px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+    }
+  }
+
+  /* Reasons For Acorn Stairlifts */
+
+/* If the screen size is 601px wide or more */
+@media screen and (min-width: 601px) {
+    .whyReason {
+        margin-top:2rem;
+        
+    }
+    
+    .whyReason h5 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .whyReason h6 {
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .whyReason .card {
+        letter-spacing: 1.5px;
+        width: 15rem;
+        height: 20rem;
+        border: unset;
+        border-radius: 10px;
+        padding: 0;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+    }
+  }
+
+  /* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+
+    .whyReason h5 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .whyReason h6 {
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .whyReason .card {
+        letter-spacing: 1.5px;
+        width: 15rem;
+        height: 20rem;
+        border: unset;
+        border-radius: 10px;
+        padding: 0;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        margin: auto;
+    }
+  }
+
+  /* Closing Credits */
+
+/* If the screen size is 601px wide or more */
+@media screen and (min-width: 601px) {
+    .row .closingCredit {
+        margin-top: 5rem;
+    }
+
+    .closingCredit .container {
+        background-image: url("../img/hangingout.png");
+        background-size: cover;
+        height: 30rem;
+        width: 60rem;
+        margin-top: 10rem;
+        border-radius: 15px;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+    }
+    
+    .closingCredit h3 {
+        background-color: rgba(255, 255, 255, 0.8);
+        display: block;
+        font-weight: 800;
+        padding: 2rem;
+        margin-top: 8rem;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+    }
+
+    .closingCredit button {
+        background-color: rgba(255, 255, 255);
+        font-weight: 800;
+        padding: 1rem;
+        border: unset;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        margin:1rem;
+    }
+
+    .closingCredit #freeQuote {
+    margin-top: 12rem;
+    }
+  }
+
+  /* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+    .row .closingCredit {
+        margin-top: 5rem;
+    }
+
+    .closingCredit .container {
+        background-image: url("../img/hangingout.png");
+        background-size: cover;
+        height: 30rem;
+        width: 100vh;
+        margin-top: 10rem;
+        border-radius: 15px;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+    }
+  
+    .closingCredit h3 {
+        background-color: rgba(255, 255, 255, 0.8);
+        display: block;
+        font-weight: 800;
+        padding: 2rem;
+        margin:1rem;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+    }
+
+    .closingCredit button {
+        display: inline-block;
+        background-color: rgba(255, 255, 255);
+        font-weight: 800;
+        padding: 1rem;
+        border: unset;
+        box-shadow: 4px 4px 4px rgba(0,0,0,.25);
+        margin:1rem;
+    }
+
+  }
+
+  /* Footer */
+  footer {
+      margin-top: 5rem;
+      margin: 5rem;
+  }
