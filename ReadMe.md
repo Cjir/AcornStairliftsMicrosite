@@ -40,3 +40,7 @@ Scope - Create a Why MicroSite that incorporates Info about Acorn Stairlifts and
 Links: 
 [Link]https://www.figma.com/file/3WfJi3XPQCxZBH55HeNokt/FInalizedAcornChairlift
 [Link]https://www.figma.com/file/cDnJmynHG17WkRPoyf9Jp1/Acorn-Stairlifts-Why-Us-Microsite?node-id=0%3A1
+![FigmaPhotos](http://photosforreadme/MacBook Pro - 1.png)
+![FigmaPhotos](http://photosforreadme/MacBook Pro - 2.png)
+![FigmaPhotos](http://photosforreadme/MacBook Pro - 3.png)
+![FigmaPhotos](http://photosforreadme/MacBook Pro - 4.png)
