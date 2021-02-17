@@ -28,19 +28,24 @@ Scope - Create a Why MicroSite that incorporates Info about Acorn Stairlifts and
 - FastTrack System
 
 ### Photo Copy of Website
-![AboveTheFold](photosforreadme/Section1(Abovethefold).png)
-![AfterTheFold](photosforreadme/Section2(Afterthefold).png)
-![Testimonials](photosforreadme/Section3(Testimonials).png)
-![Testimonials](photosforreadme/Section4(Testimonials).png)
-![Testimonials](photosforreadme/Section5(Testimonials).png)
-![Testimonials](photosforreadme/Section6(WhyAcornStairlifts).png)
-![ClosingCredits](photosforreadme/Section7(ClosingCredits).png)
+![Image](photosforreadme/Section1(Abovethefold).png)
+![Image](photosforreadme/Section2(Afterthefold).png)
+![Image](photosforreadme/Section3(Testimonials).png)
+![Image](photosforreadme/Section4(Testimonials).png)
+![Image](photosforreadme/Section5(Testimonials).png)
+![Image](photosforreadme/Section6(WhyAcornStairlifts).png)
+![Image](photosforreadme/Section7(ClosingCredits).png)
 
-## FIGMA
+## FIGMA links and wireframes
 Links: 
 [Link]https://www.figma.com/file/3WfJi3XPQCxZBH55HeNokt/FInalizedAcornChairlift
 [Link]https://www.figma.com/file/cDnJmynHG17WkRPoyf9Jp1/Acorn-Stairlifts-Why-Us-Microsite?node-id=0%3A1
-![FigmaPhotos](photosforreadme/MacBook Pro - 1.png)
-![FigmaPhotos](photosforreadme/MacBook Pro - 2.png)
-![FigmaPhotos](photosforreadme/MacBook Pro - 3.png)
-![FigmaPhotos](photosforreadme/MacBook Pro - 4.png)
+![Image](photosforreadme/MacBook Pro - 1.png)
+![Image](photosforreadme/MacBook Pro - 2.png)
+![Image](photosforreadme/MacBook Pro - 3.png)
+![Image](photosforreadme/MacBook Pro - 4.png)
+
+## Figma Final design and assets
+![Image](photosforreadme/MacBook Pro - 5.png)
+![Image](photosforreadme/MacBook Pro - 6.png)
+![Image](photosforreadme/Frame 2.png)
