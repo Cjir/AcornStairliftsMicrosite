@@ -14,14 +14,18 @@ Scope - Create a Why MicroSite that incorporates Info about Acorn Stairlifts and
 - Digestible Content
 - Internal Target Narrative towards goal
 
-
 ## Aesthetic and Style
+
 - minimal
 - Large Readable Font
 - Good Color Contrast
 
 ## Special Notes
+
 - Get Free Quote Button
 - Easy Installation and No reconstruction needed
 - Year round customer service available 24/7
 - FastTrack System
+
+### Photo Copy of Website
+(/photosforreadme/Section1(Abovethefold).png)
